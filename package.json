@@ -2,7 +2,7 @@
   "name": "ai-lp-generator",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3030",
     "build": "vite build",
     "lint": "biome check ./src",
     "lint:fix": "biome check --write ./src"

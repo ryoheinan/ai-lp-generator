@@ -1,10 +1,7 @@
 (POC) AI LP Generator
 
-```txt
-npm install
-npm run dev
+```zsh
+pnpm install
+pnpm dev
 ```
-
-```txt
-npm run deploy
-```
+The dev serer will be running on port 3030.
