@@ -1,9 +1,9 @@
 import { Hono } from "hono";
-import { renderer } from "./renderer";
-import OpenAI from "openai";
 import { env } from "hono/adapter";
-import { useRequestContext } from "hono/jsx-renderer";
 import { Suspense } from "hono/jsx";
+import { useRequestContext } from "hono/jsx-renderer";
+import OpenAI from "openai";
+import { renderer } from "./renderer";
 
 const PROMPT = (keyword: string) =>
 	[
