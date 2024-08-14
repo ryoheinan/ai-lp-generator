@@ -11,7 +11,15 @@
    pnpm install
    ```
 
-3. Run the development server
+3. Configure environment variables
+
+   ```shell
+   cp .dev.vars.example .dev.vars
+   ```
+
+   Then, edit `.dev.vars` file and fill the variables with your own values.
+
+4. Run the development server
 
    ```shell
    pnpm run dev
