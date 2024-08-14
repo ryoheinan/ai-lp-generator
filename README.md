@@ -25,4 +25,4 @@
    pnpm run dev
    ```
 
-   The dev serer will be running on port 3030.
+   The dev server will be running on port 3030.
