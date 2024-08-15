@@ -17,7 +17,7 @@ const PROMPT = (keyword: string) =>
 				3. You have to omit markdown related code such as "\`\`\`html"
 				4. You must not generate customer review contents
 				5. You have to generative attractive and fascinating LP
-				6. The generated LP must be resoponsible design
+				6. The generated LP must be responsible design
 				7. You have generate LP in Japanese
 				`,
 		},
